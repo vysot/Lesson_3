@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E5E5E5;
+    width: 100vw;
+    height: auto;
+}
+
+.container-main {
+    background-color: white;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.container-head {
+    height: 70px;
+    text-align: center;
+    font-weight: 200;
+    background-color: white;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.heard-color {
+    color: #0BBBD3;
+}
+
+.container-sobor {
+    position: relative;
+}
+
+.sobor-img {
+    width: 100%;
+}
+
+.flag-img {
+    width: 15px;
+    position: absolute;
+    left: 5%;
+    top: 35%;
+    z-index: 1;
+}
+
+.text-sobor {
+    position: absolute;
+    left: 15%;
+    top: 33%;
+    z-index: 1;
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.container-small {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.text-places {
+    display: inline-block;
+    border-bottom: 3px solid #0BBBD3;
+    font-size: 30px;
+}
+
+.container-places {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.places-img {
+    width: 300px;
+}
+
+.garden-position {
+    position: relative;
+}
+
+.hand-img {
+    width: 54px;
+    position: absolute;
+    left: 33%;
+    top: 960px;
+    z-index: 1;
+}
+
+.container-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-center {
+    display: inline-block;
+    font-size: 30px;
+    border-bottom: 3px solid #0BBBD3;
+}
+
+.heart-img {
+    width: 700px;
+}
+
+.text-box {
+    width: 300px;
+    height: 45px;
+    background-color: #0BBBD3;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.container-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0A2DA9;
+    margin-top: 100px;
+    height: 300px;
+}
+
+.text-footer {
+    color: #0BBBD3;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.text-color {
+    color: white;
+}
+
+.link-color {
+    color: #353949;
+    font-size: 20px;
+}
+
+.m-b-20 {
+    margin-bottom: 20px;
+}
+
+.icon-img {
+    width: 30px;
+    margin: 25px;
+    text-align: center;
+}
